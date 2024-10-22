@@ -2,7 +2,7 @@
 
 ## Как установить:
 
-- Скачайте `.exe` файл со страницы `release`
+- Скачайте `.exe` файл со страницы [Releases](https://github.com/debibl/ex-electron-1/releases)
 - Откройте установщик
 - ???
 - PROFIT
