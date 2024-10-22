@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: 'src/index.html', // Укажите входной файл
+      input: 'src/index.html',
     },
   },
   server: {
