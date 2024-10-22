@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="content-wrapper">
+      <h1>Список пользователей</h1>
+      <table id="user-table">
+        <tr>
+          <th class="limited">ID</th>
+          <th class="limited">Имя</th>
+          <th class="limited">Роль</th>
+          <th class="limited">Пароль</th>
+        </tr>
+      </table>
+      <button id="add-user-button">Добавить пользователя</button>
+    </div>
+
+    <div id="add-user-modal" class="modal">
+      <form id="add-user-form">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" required />
+
+        <label for="role">Роль:</label>
+        <input type="text" id="role" required />
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" required />
+
+        <button type="submit">Добавить</button>
+      </form>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
